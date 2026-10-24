@@ -1,5 +1,4 @@
-import profileImg from "./assets/profile.jpg";
-import hotelImg from "./assets/hotel-project.jpg";
+
 import React, { useState, useEffect, useRef } from "react";
 import {
   Mail, Download, Sun, Moon, ExternalLink,
