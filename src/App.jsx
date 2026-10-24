@@ -37,34 +37,35 @@ const PROFILE = {
   linkedin: "https://linkedin.com/in/geesara",
   cvUrl: "#",
   // 👉 Replace this with your own photo URL (e.g. an uploaded image link, or import it locally).
-  photo: "",
+  photo: "./src/assets/profile.jpg",
 };
 
 const SKILLS = [
   { name: "HTML", level: 90, cat: "Frontend" },
-  { name: "CSS", level: 85, cat: "Frontend" },
-  { name: "JavaScript", level: 82, cat: "Frontend" },
-  { name: "React", level: 78, cat: "Frontend" },
+  { name: "CSS", level: 95, cat: "Frontend" },
+  { name: "JavaScript", level: 85, cat: "Frontend" },
+  { name: "React", level: 85, cat: "Frontend" },
   { name: "C++", level: 80, cat: "Core" },
-  { name: "PHP", level: 70, cat: "Backend" },
-  { name: "MySQL", level: 72, cat: "Backend" },
+  { name: "PHP", level: 90, cat: "Backend" },
+  { name: "MySQL", level: 80, cat: "Backend" },
   { name: "Git & GitHub", level: 85, cat: "Tools" },
 ];
 
 const PROJECTS = [
   {
-    title: "Campus Event Hub",
+    title: "Hotel Mnagement Systems",
     desc: "A full-stack web app for managing university events — students can browse, register, and get reminders. Built with React, PHP and MySQL.",
     tags: ["React", "PHP", "MySQL"],
     link: "#",
     repo: "#",
   },
   {
-    title: "Library Management System",
+    title: "Hotel Management System",
     desc: "Desktop app in C++ implementing borrow/return workflows, fine calculation and an admin dashboard with file-based storage.",
     tags: ["C++", "OOP", "Data Structures"],
-    link: "#",
+    link: "https://kivihotel.rf.gd/front_office/rooms.php",
     repo: "#",
+    image: "./src/assets/hotel-project.jpg",
   },
   {
     title: "Portfolio Starter Kit",
@@ -83,10 +84,10 @@ const EDUCATION = [
     detail: "Coursework: Data Structures & Algorithms, OOP, Databases, Web Technologies, Software Engineering.",
   },
   {
-    when: "2019 — 2022",
-    what: "G.C.E. Advanced Level — Physical Science",
-    where: "Your School Name",
-    detail: "Combined Mathematics, Physics, Chemistry.",
+    when: "2020 — 2023",
+    what: "G.C.E. Advanced Level — technology",
+    where: "AM/D.S senanayaka collage",
+    
   },
 ];
 
@@ -1188,6 +1189,11 @@ export default function Portfolio() {
                     <a href={p.link} target="_blank" rel="noreferrer"><ExternalLink size={14} /> Live</a>
                     <a href={p.repo} target="_blank" rel="noreferrer"><Github size={14} /> Code</a>
                   </div>
+                     {p.image && (
+                        <div className="project-image" style={{ marginTop: '12px', borderRadius: '8px', overflow: 'hidden' }}>
+                        <img src={p.image} alt={p.title} style={{ width: '100%', height: 'auto', display: 'block' }} />
+                   </div>
+  )}
                 </div>
               </Reveal>
             ))}
