@@ -55,7 +55,7 @@ const SKILLS = [
 
 const PROJECTS = [
   {
-    title: "Hotel Mnagement Systems",
+    title: "Safari Management Systerm",
     desc: "A full-stack web app for managing university events — students can browse, register, and get reminders. Built with React, PHP and MySQL.",
     tags: ["React", "PHP", "MySQL"],
     link: "#",
@@ -70,12 +70,26 @@ const PROJECTS = [
     image: "/hotel-project.jpg",
   },
   {
-    title: "Portfolio Starter Kit",
+    title: "Study Space AI",
     desc: "An open-source, animated React portfolio template (the one you're looking at!) with dark/light mode and scroll-reveal animations.",
     tags: ["React", "CSS", "Animation"],
     link: "#",
     repo: "#",
   },
+
+  {
+    title: "btrfs-simulator-c",
+    desc: "An open-source, animated React portfolio template (the one you're looking at!) with dark/light mode and scroll-reveal animations.",
+    tags: ["React", "CSS", "Animation"],
+    link: "#",
+    repo: "#",
+  },
+  title: "Gan Management Systerm",
+    desc: "An open-source, animated React portfolio template (the one you're looking at!) with dark/light mode and scroll-reveal animations.",
+    tags: ["React", "CSS", "Animation"],
+    link: "#",
+    repo: "#",
+  
 ];
 
 const EDUCATION = [
