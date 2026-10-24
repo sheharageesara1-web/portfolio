@@ -39,7 +39,7 @@ const PROFILE = {
   linkedin: "https://linkedin.com/in/geesara",
   cvUrl: "#",
   // 👉 Replace this with your own photo URL (e.g. an uploaded image link, or import it locally).
-  photo: "./src/assets/profile.jpg",
+  photo: "/profile.jpg",
 };
 
 const SKILLS = [
@@ -67,7 +67,7 @@ const PROJECTS = [
     tags: ["C++", "OOP", "Data Structures"],
     link: "https://kivihotel.rf.gd/front_office/rooms.php",
     repo: "#",
-    image: "hotel-project.jpg",
+    image: "/hotel-project.jpg",
   },
   {
     title: "Portfolio Starter Kit",
