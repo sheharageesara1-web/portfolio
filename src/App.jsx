@@ -1,3 +1,5 @@
+import profileImg from "./assets/profile.jpg";
+import hotelImg from "./assets/hotel-project.jpg";
 import React, { useState, useEffect, useRef } from "react";
 import {
   Mail, Download, Sun, Moon, ExternalLink,
@@ -65,7 +67,7 @@ const PROJECTS = [
     tags: ["C++", "OOP", "Data Structures"],
     link: "https://kivihotel.rf.gd/front_office/rooms.php",
     repo: "#",
-    image: "./src/assets/hotel-project.jpg",
+    image: "./src/assets/profileImg",
   },
   {
     title: "Portfolio Starter Kit",
