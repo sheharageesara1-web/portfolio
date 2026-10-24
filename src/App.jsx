@@ -67,7 +67,7 @@ const PROJECTS = [
     tags: ["C++", "OOP", "Data Structures"],
     link: "https://kivihotel.rf.gd/front_office/rooms.php",
     repo: "#",
-    image: "./src/assets/profileImg",
+    image: "./src/assets/hotel-project.jpg",
   },
   {
     title: "Portfolio Starter Kit",
